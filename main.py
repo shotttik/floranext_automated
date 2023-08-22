@@ -4,8 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from Pages.main_page import MainPage
-from Pages.chapter_page import ChapterPage
-from parsing import BibleChapter
 
 if '__main__' == __name__:
     # Preparig browser
