@@ -1,4 +1,3 @@
-INFO — 2022-08-20 00: 51: 34 — Verifing page by element
-INFO — 2022-08-20 00: 51: 36 — Verifing page by element
-INFO — 2022-08-20 00: 52: 55 — Verifing page by element
-INFO — 2022-08-20 00: 52: 57 — Verifing page by element
+INFO 2023-08-26 18:42:41 - Script Started.
+INFO 2023-08-26 18:43:01 - Script Started.
+INFO 2023-08-26 18:43:01 - Old Log Files Deleted.
