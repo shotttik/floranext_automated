@@ -1,8 +1,11 @@
 import json
 
 
-def config_browser():
-    with open('Resources/config.json') as f:
+def config_browser(headless: bool):
+    config_filename = "config"
+    if headless == True:
+        config_filename = "headless_config"
+    with open(f'Resources/{config_filename}.json') as f:
         data = json.load(f)
         f.close()
     if 'browser' not in data:

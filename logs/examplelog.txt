@@ -1,3 +1,0 @@
-INFO 2023-08-26 18:42:41 - Script Started.
-INFO 2023-08-26 18:43:01 - Script Started.
-INFO 2023-08-26 18:43:01 - Old Log Files Deleted.

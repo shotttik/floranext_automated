@@ -1,13 +1,17 @@
 {
   "browser": "chrome",
   "base_url": "https://app.floranext.com/bloomnwa_com/admin/",
+  "recaptcha_score_url": "https://recaptcha-demo.appspot.com/recaptcha-v3-request-scores.php",
   "options": [
-    "--incognito",
     "--start-maximized",
-    "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.49 Safari/537.36",
     "--user-data-dir=/home/admin/.config/google-chrome",
     "--profile-directory=Profile 4"
   ],
-  "prefs": { "download.default_directory": "./" },
+  "experimental_options": [
+    ["prefs", { "download.default_directory": "./" }],
+    ["excludeSwitches", ["enable-automation"]],
+    ["useAutomationExtension", false]
+  ],
   "wait_time": 10
 }
